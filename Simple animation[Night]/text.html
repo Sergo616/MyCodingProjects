@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <meta charset="UTF-8"/>
+      <title>Night</title>
+	  <link href="style.css" rel="stylesheet" type="text/css"/>
+      <script src="https://code.jquery.com/jquery-3.1.1.js"></script>	  
+   </head>
+   
+   <body>
+      <div class="main">
+		    <div class="sky">
+		        <div class="sun"></div>
+		        <div class="light">
+			       <svg
+			       xmlns="http://www.w3.org/2000/svg" version="1.1"
+                   xmlns:xlink="http://www.w3.org/1999/xlink">
+			           	<polyline class="light1" style="stroke:red; stroke-width:2; fill:none;"
+                                  points="95 65 105 65 110 70 110 125">
+                                     <animate attributeName="stroke" 
+                                     attributeType="XML"
+                                     values="14141E;#2C2C41;#14141E"
+                                     dur="15s"
+                                     repeatCount="indefinite"/>
+                        </polyline>
+                        <path class="yellow" d="M95 65 97 65 107 125 85 125 Z"/>
+			       </svg>
+			   </div>
+			   
+			   
+			   <div class="house">
+			      <svg width="250" height="125"
+			      xmlns="http://www.w3.org/2000/svg" version="1.1"
+                  xmlns:xlink="http://www.w3.org/1999/xlink">
+			          
+                    <path d="M150 125 L225 125 L225 100 L215 85 L202 85 L202 70 L195 70 L195 85 L160 85 L150 100 Z">
+                        <animate attributeName="fill" 
+                        attributeType="XML"
+                        values="#14141E;#2C2C41;#14141E"
+                        dur="15s"
+                        repeatCount="indefinite"/>  
+                    </path>
+					<rect class="window" width="15" height="15" fill="#5E5E73" x="155" y="105"/>
+					<rect class="window" width="15" height="15" fill="#5E5E73" x="180" y="105"/>
+					<rect width="15" height="15" fill="#5E5E73" x="205" y="105"/>
+					
+		        	<line class="stars" x1="50" y1="50" x2="50" y2="50" style="stroke:#ACB4FF; stroke-linecap:round; stroke-width:3"/>
+					<line class="stars" x1="135" y1="70" x2="135" y2="70" style="stroke:#ACB4FF; stroke-linecap:round; stroke-width:2"/>
+					<line class="stars" x1="250" y1="30" x2="250" y2="30" style="stroke:#ACB4FF; stroke-linecap:round; stroke-width:2"/>
+					<line class="stars" x1="200" y1="15" x2="200" y2="15" style="stroke:#ACB4FF; stroke-linecap:round; stroke-width:3"/>
+					<line class="stars" x1="100" y1="40" x2="100" y2="40" style="stroke:#ACB4FF; stroke-linecap:round; stroke-width:2"/>
+					<line class="stars" x1="225" y1="45" x2="225" y2="45" style="stroke:#ACB4FF; stroke-linecap:round; stroke-width:2"/>
+					<line class="stars" x1="20" y1="10" x2="20" y2="10" style="stroke:#ACB4FF; stroke-linecap:round; stroke-width:4"/>
+					<line class="stars" x1="150" y1="40" x2="150" y2="40" style="stroke:#ACB4FF; stroke-linecap:round; stroke-width:2"/>  
+	              </svg>
+			   </div>
+			</div>
+			<div class="ground">
+			    <svg
+			    xmlns="http://www.w3.org/2000/svg" version="1.1"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+			        <path d="M75 0 L15 75 L115 75 L100 0 Z">
+			            <animate attributeName="fill" 
+                        attributeType="XML"
+                        values="#2C2C2C;#626262;#2C2C2C"
+                        dur="15s"
+                        repeatCount="indefinite"/>
+			        </path>
+			    </svg>
+			</div> 
+			
+			
+		</div>
+		
+		      
+	</body>
+   
+</html> 

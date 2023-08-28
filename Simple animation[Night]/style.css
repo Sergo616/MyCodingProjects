@@ -1,0 +1,117 @@
+body {
+    background-color:#6190C2;
+    overflow: hidden;
+}
+
+.main {
+   z-index:5;
+   background:white; 
+   height:200px;
+   width:300px;
+   border:4px solid #804040;
+   position:absolute;
+   top:50%;
+   left:50%;
+   margin:-102px 0 0 -152px;
+}
+
+.sky {
+    position: relative;
+    overflow: hidden; 
+    background-color:#ACB4FF; 
+    height:125px;
+    width:300px;
+    animation: sky 15s infinite;
+}
+@keyframes sky {
+    0% {background-color: #242424; }
+    50% {background-color: #ACB4FF; }
+    100% {background-color: #242424; }
+}
+
+.ground {
+    background-color:#2C2C2C; 
+    height:75px;
+    width:300px;
+    animation: ground 15s infinite;
+}
+@keyframes ground {
+    0% {background-color: #212121; }
+    50% {background-color: #472C2C; }
+    100% {background-color: #212121; }
+}
+
+.house {
+    margin-top:-153px;
+}
+
+.window {
+  animation: window1 15s infinite;
+}
+
+@keyframes window1 {
+  0%{fill:#5E5E73}
+  70%{fill:#5E5E73}
+  71%{fill:#FFEF88}
+  90%{fill:#FFEF88}
+  100%{fill:#5E5E73}
+}
+
+.yellow {
+  opacity: 0.3;    
+  animation: yellow1 15s infinite;
+}
+
+@keyframes yellow1 {
+  0%{fill:none}
+  60%{fill:none}
+  61%{fill:#FFF4AF}
+  100%{fill:#FFF4AF}
+
+}
+
+.sun {
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 15px;
+  height: 15px;
+  margin-left: -25px;
+  margin-top: 0;
+  background: #FFDC8B;
+  border-radius: 50%;
+  animation: sun-move 15s infinite linear;
+  }
+  
+@keyframes sun-move {
+  0% {
+      bottom: 35%;
+  }
+
+  17% {
+    margin-left: 25px;
+    }
+  35% {
+    left: 25%;
+    bottom: 65%;
+    width: 30px;
+    height: 30px;
+    margin-left: 50px;
+    }
+  52% {
+    margin-left: 50;
+    }
+  70% {
+    left: 100%;
+    margin-left: 25px;
+    bottom: 45%;
+    }
+  100% {
+    left: 100%;  
+    margin-left: 50px;
+    }
+}
+
+.stars {
+    opacity: 0.3;
+}
