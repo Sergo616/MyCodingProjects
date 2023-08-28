@@ -1,0 +1,211 @@
+body {
+	background-color:#BE87A1;
+}
+
+.main {
+   z-index:5;
+   overflow: hidden;
+   background-color:#87CEEB; 
+   background: linear-gradient(#87CEEB 0px, #FFCEEB 112px, #00FFFF 112px, #F5F5F5 112px, #F5F5F5 115px, #00FFFF 115px, #00FFFF 132px, #A0522D 132px, #A0522D 156px, green 156px, green 162px, slategrey 162px, slategrey 190px, green 190px);
+   height:200px;
+   width:300px;
+   border:2px solid #804040;
+   position:absolute;
+   top:50%;
+   left:50%;
+   margin:-102px 0 0 -152px;
+}
+
+.train {
+   z-index:15;
+   position: relative;
+   background-color:#013C85;
+   height:12px;
+   width:102px;
+   margin-top:-167px;
+   margin-left:-102px;
+   border-radius:12px 12px 0 0;
+   animation: train_move 9s linear 2s infinite;
+}
+
+@keyframes train_move {
+     0% {
+        transform:translateX(0px);
+    }
+    
+    100% {
+        transform:translateX(500px);
+    }
+}
+
+.mountain_back {
+    z-index:10;
+    position: relative;
+}
+
+.bridge {
+     z-index:20;
+     position: relative;
+}
+
+.mountain_front {
+     z-index:30;
+     position: relative;
+}
+
+.cloud_1 {
+     z-index:5;
+     position: relative;
+     margin-top:-225px;
+     margin-left:150px;
+     animation: cloud_1 80s linear forwards;
+}
+
+@keyframes cloud_1 {
+     0% {
+        transform:translateX(0px);
+    }
+    
+    100% {
+        transform:translateX(-300px);
+    }
+}
+
+.cloud_2 {
+     z-index:5;
+     position:relative;
+     margin-top:-104px;
+     margin-left:250px;
+     animation: cloud_2 80s linear 50s infinite;
+}
+
+@keyframes cloud_2 {
+     0% {
+        transform:translateX(0px);
+    }
+    
+    100% {
+        transform:translateX(-400px);
+    }
+}
+
+.ship_1 {
+     z-index:40;
+     position: relative;
+     animation: ship_1 30s linear forwards;
+}
+
+@keyframes ship_1 {
+     0% {
+        transform:translateX(0px);
+    }
+    
+    100% {
+        transform:translateX(-195px);
+    }
+}
+
+.ship_2 {
+     z-index:40;
+     position: relative;
+     margin-top:-75px;
+     margin-left:175px;
+     animation: ship_2 45s linear 30s infinite;
+}
+
+@keyframes ship_2 {
+     0% {
+        transform:translateX(0px);
+    }
+    
+    100% {
+        transform:translateX(-375px);
+    }
+}
+
+.forest_1 {
+     z-index:50;
+     position: relative;
+     margin-top:-75px;
+}
+
+.forest_2 {
+     z-index:50;
+     position: relative;
+     margin-top:-54px;
+     margin-left:80px;
+}
+
+.forest_3 {
+     z-index:50;
+     position: relative;
+     margin-top:-54px;
+     margin-left:160px;
+}
+
+.forest_4 {
+     z-index:50;
+     position: relative;
+     margin-top:-54px;
+     margin-left:240px;
+}
+
+.car_1 {
+     z-index:60;
+     position: relative;
+     margin-top:-165px;
+     margin-left:205px;
+     animation: car_1 6s linear 0s infinite;
+}
+
+@keyframes car_1 {
+     0% {
+        transform:translateX(0px);
+    }
+    
+    100% {
+        transform:translateX(-450px);
+    }
+}
+
+.car_2 {
+     z-index:70;
+     position: relative;
+     margin-top:-90px;
+     margin-left:-225px;
+     animation: car_2 5s linear 1s infinite;
+}
+
+@keyframes car_2 {
+     0% {
+        transform:translateX(0px);
+    }
+    
+    100% {
+        transform:translateX(535px);
+    }
+}
+
+.car_3 {
+     z-index:70;
+     position: relative;
+     margin-top:-104px;
+     margin-left:-160px;
+     animation: car_3 4s linear forwards;
+}
+
+@keyframes car_3 {
+     0% {
+        transform:translateX(0px);
+    }
+    
+    100% {
+        transform:translateX(535px);
+    }
+}
+
+.trees {
+     z-index:80;
+     position: relative;
+     margin-top:-184px;
+}
