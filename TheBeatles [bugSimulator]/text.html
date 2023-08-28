@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <meta charset="UTF-8"/>
+      <title>The Beatles</title>
+	  <link href="style.css" rel="stylesheet" type="text/css"/>
+      <script src="https://code.jquery.com/jquery-3.1.1.js"></script>	  
+   </head>
+   
+   <body>
+   <div id="all">
+	  <div id="warning">
+		<p align="center"><b>WARNING!</b>   This site was created for the practice of beginner testers and has a lot of bugs. A list of some of the bugs can be found 
+			<a class="popup" style="color: blue;" onclick="myFunction()"> HERE!
+				<span class="popupText" id="myPopup" style="text-align: left; padding: 20px;">	
+				<b>List of some bugs:</b></br>	
+			  1. Inconsistency of language. Album section "Help!" not in English.</br>	
+			  2. Incorrectly spaced out area of the "Facebook" icon in the footer. Clicking the left mouse button to the right of the "Twitter" icon will take you to the "Facebook" page.</br>		
+			  3. One of the photos in the slider on the main page is not displayed.</br>
+			  4. Distortion of photos in the slider on the main page.</br>
+			  5. Page errors in Chrome DevTools.</br>		  
+			  6. Broken link in footer. When you click "Albums" there is no transition to the corresponding section of the site.</br>
+			  7. There is no point in pressing "Home" in the main menu on the main page. When you click on the button, you go to the main page, but you can only click this button on the main page.</br>
+			  8. Missing placeholder in the first input in the "Contacts" section.</br>
+			  9. Clicking on the phone number/email in the "Contacts" section does not navigate to the call/email.</br>
+			  10. Missing metadata in the HTML code of the page.</br>
+			  11. External link does not open in a new window in "George Harrison" section.</br>
+			  12. Layout in the mobile version of the site is move.</br>
+			  13. The page in the browser does not adjust to screen reduction.</br>
+			  14. Horizontal page scrolling.</br>
+			  15. Tips do not appear when hovering over active elements of the site.</br>
+			  16. Inconsistency in the "1968 The Beatles ("The White Album")" album cover photo size compared with other album covers.</br>	
+			  17. Incorrect centering of the tab title in the main menu. In the main menu under "Albums" the album "1967 Sgt. Pepper's Lonely Hearts Club Band" should be center aligned.</br>		  
+			  18. The site does not have a favicon.</br>
+			  19. Inconsistency in the style of the caption of the "ringo starr" submenu in the "Members" tab in the main menu. Replace "ringo starr" with "Ringo Starr".</br>
+			  20. The title, description and image are not displayed during sharing link of this page.</br>
+				</span>
+		   </a>	
+		</p>
+	  </div>	
+      <div id="top">
+	     <div id="descr">
+              <b>The Beatles</b> were an English rock band formed in Liverpool in 1960. With members John Lennon, Paul McCartney, George Harrison and Ringo Starr, they became widely regarded as the foremost and most influential music band in history. Rooted in skiffle, beat and 1950s rock and roll, the Beatles later experimented with several musical styles, ranging from pop ballads and Indian music to psychedelia and hard rock, often incorporating classical elements and unconventional recording techniques in innovative ways. In 1963, their enormous popularity first emerged as "Beatlemania"; as the group's music grew in sophistication, led by primary songwriters Lennon and McCartney, the band were integral to pop music's evolution into an art form and to the development of the counterculture of the 1960s.
+         </div>
+		 
+		 <div id="left_menu">
+            <ul>
+		       <li><a href="#top"><b>HOME</b></a></li>
+		       <li><a href="#history_1">History</a></li>
+	           <li><a href="#albums_1">Albums</a></li>
+		       <li><a href="#members_1">Members</a></li>
+	           <li><a href="#media">Media</a></li>
+		       <li><a href="#contacts">Contacts</a></li>
+	        </ul>
+         </div>  
+		 
+	  </div>
+	  <div id="name">
+	     The Beatles
+	  </div>
+      <div id="menu">	  
+         <ul>
+		    <li><a href="#top">Home</a></li>
+			<li><a href="#">History</a>
+			   <ul>
+			      <li><a href="#history_1"><b>In short</b></a></li>
+			      <li><a href="#history_2">1957-1962</a></li>
+			      <li><a href="#history_3">1963-1966</a></li>
+			      <li><a href="#history_4">1966-1970</a></li>
+			      <li><a href="#history_5">1970-present</a></li>
+			   </ul>
+			</li>
+			<li><a href="#">Albums</a>
+			   <ul>
+			      <li><a href="#albums_1" style="width:640px">1963 Please Please Me</a></li>
+			      <li><a href="#albums_2" style="width:640px">1963 With the Beatles</a></li>
+			      <li><a href="#albums_3" style="width:640px">1964 A Hard Day's Night</a></li>
+			      <li><a href="#albums_4" style="width:640px">1964 Beatles for Sale</a></li>
+			      <li><a href="#albums_5" style="width:640px">1965 Help!</a></li>
+			      <li><a href="#albums_6" style="width:640px">1965 Rubber Soul</a></li>
+			      <li><a href="#albums_7" style="width:640px">1966 Revolver</a></li>
+			      <li><a href="#albums_8" style="width:640px; text-align: right;">1967 Sgt. Pepper's Lonely Hearts Club Band</a></li>
+			      <li><a href="#albums_9" style="width:640px">1967 Magical Mystery Tour</a></li>
+			      <li><a href="#albums_10" style="width:640px">1968 The Beatles ("The White Album")</a></li>
+			      <li><a href="#albums_11" style="width:640px">1969 Yellow Submarine</a></li>
+			      <li><a href="#albums_12" style="width:640px">1969 Abbey Road</a></li>
+			      <li><a href="#albums_13" style="width:640px">1970 Let It Be</a></li>
+			      <li><a href="#albums_14" style="width:640px"><b>See also</b></a>
+				     <ul>
+					    <li><a href="#albums_14_1">Paul McCartney</a></li>
+			            <li><a href="#albums_14_2">John Lennon</a></li>
+			            <li><a href="#albums_14_3">George Harrison</a></li>
+			            <li><a href="#albums_14_4">Ringo Starr</a></li>
+					 </ul>
+				  </li>
+			   </ul>
+			</li>
+			<li><a href="#">Members</a>
+			   <ul>
+			      <li><a href="#members_1">Paul McCartney</a></li>
+			      <li><a href="#members_2">John Lennon</a></li>
+			      <li><a href="#members_3">George Harrison</a></li>
+			      <li><a href="#members_4">ringo starr</a></li>
+			   </ul>
+			</li>
+			<li><a href="#media">Media</a></li>
+			<li><a href="#contacts">Contacts</a></li>
+		 </ul>
+      </div>
+	  
+      <div id="home">
+		<div id="homePhoto">
+            <button id="button1" onclick="prev()"> PREV </button>
+            <img id="slider" src="https://www.theplace.ru/archive/the_beatles/img/The_Beatles_AbbeyRoa-3.jpg" width="600px" height="500px"/>
+            <button id="button2" onclick="next()"> NEXT </button>
+         </div>  
+      </div>
+      
+	  <div class="page" id="history_1">
+	     <div style="background-color:#3e8e41; color:white">
+		    <h2>In short</h2>
+         </div>
+		    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/The_Beatles_members_at_New_York_City_in_1964.jpg/440px-The_Beatles_members_at_New_York_City_in_1964.jpg" style="float:left; padding:4px" width="160px" height="160px"/>
+		    <p><b>The Beatles</b> were an English rock band formed in Liverpool in 1960. With members John Lennon, Paul McCartney, George Harrison and Ringo Starr, they became widely regarded as the foremost and most influential music band in history. Rooted in skiffle, beat and 1950s rock and roll, the Beatles later experimented with several musical styles, ranging from pop ballads and Indian music to psychedelia and hard rock, often incorporating classical elements and unconventional recording techniques in innovative ways. In 1963, their enormous popularity first emerged as "Beatlemania"; as the group's music grew in sophistication, led by primary songwriters Lennon and McCartney, the band were integral to pop music's evolution into an art form and to the development of the counterculture of the 1960s.</p>
+		    <p align="center">For more information click <a href="https://en.wikipedia.org/wiki/The_Beatles" target="_blank" style="text-decoration: none;">here</a></p>
+		</div>	
+      <div class="page" id="history_2">
+	     <div style="background-color:#3e8e41; color:white">
+		    <h2>1957-1962: Formation, Hamburg, and UK popularity</h2>
+         </div>
+	        <p>In March 1957, John Lennon, then aged sixteen, formed a skiffle group with several friends from Quarry Bank High School. They briefly called themselves the Blackjacks, before changing their name to the Quarrymen after discovering that a respected local group was already using the other name. Fifteen-year-old Paul McCartney joined as a rhythm guitarist shortly after he and Lennon met that July. In February 1958, McCartney invited his friend George Harrison to watch the band. The fifteen-year-old auditioned for Lennon, impressing him with his playing, but Lennon initially thought Harrison was too young to join them. After a month of Harrison's persistence, during a second meeting, arranged by McCartney, he performed the lead guitar part for the instrumental "Raunchy" on the upper deck of a Liverpool bus, and they enlisted him as their lead guitarist. By January 1959, Lennon's Quarry Bank friends had left the group, and he began studies at the Liverpool College of Art. The three guitarists, billing themselves at least three times as Johnny and the Moondogs, were playing rock and roll whenever they could find a drummer. Lennon's art school friend Stuart Sutcliffe, who had recently sold one of his paintings and was persuaded to purchase a bass guitar, joined in January 1960, and it was he who suggested changing the band's name to Beatals, as a tribute to Buddy Holly and the Crickets. They used the name until May, when they became the Silver Beetles, before undertaking a brief tour of Scotland as the backing group for pop singer and fellow Liverpudlian Johnny Gentle. By early July, they had changed their name to the Silver Beatles and by the middle of August to the Beatles...</p>
+	  </div>
+      <div class="page" id="history_3">
+	     <div style="background-color:#3e8e41; color:white">
+		    <h2>1963-1966: Beatlemania and touring years</h2>
+         </div>
+	       <p><b>Please Please Me and With the Beatles</b></p>
+           <p>On 11 February 1963, the Beatles recorded ten songs during a single studio session for their debut LP, Please Please Me. The album was supplemented by the four tracks already released on their first two singles. Martin originally considered recording the Beatles' debut LP live at The Cavern Club, but after deciding that the building's acoustics were inadequate, he elected to simulate a "live" album with minimal production in "a single marathon session at Abbey Road". After the moderate success of "Love Me Do", the single "Please Please Me" met with a more emphatic reception. Released in January 1963, two months ahead of the album of the same name, the song reached number one on every chart in London except Record Retailer, where it peaked at number two. Recalling how the Beatles "rushed to deliver a debut album, bashing out Please Please Me in a day", AllMusic's Stephen Thomas Erlewine comments, "Decades after its release, the album still sounds fresh, precisely because of its intense origins." Lennon said little thought went into composition at the time; he and McCartney were "just writing songs a la Everly Brothers, a la Buddy Holly, pop songs with no more thought of them than that - to create a sound. And the words were almost irrelevant...</p>
+      
+           <p><b>First visit to United States and British Invasion</b></p>
+           <p>EMI's American subsidiary, Capitol Records, hindered the Beatles' releases in the United States for more than a year by initially declining to issue their music, including their first three singles. Concurrent negotiations with the independent US label Vee-Jay led to the release of some of the songs in 1963, but not all. Vee-Jay finished preparation for the album Introducing... The Beatles, culled from most of the songs of Parlophone's Please Please Me, but a management shake-up led to the album not being released.[nb 2] Then when it surfaced that the label did not report royalties on their sales, the licence Vee-Jay signed with EMI was voided. A new licence was granted to the Swan label for the single "She Loves You". The record received some airplay in the Tidewater area of Virginia by Gene Loving of radio station WGH and was featured on the "Rate-a-Record" segment of American Bandstand, but it failed to catch on nationally...</p>
+        
+           <p><b>1964 world tour, meeting Bob Dylan, and stand on civil rights</b></p>
+           <p>Touring internationally in June and July, the Beatles staged 37 shows over 27 days in Denmark, the Netherlands, Hong Kong, Australia and New Zealand. In August and September they returned to the US, with a 30-concert tour of 23 cities. Generating intense interest once again, the month-long tour attracted between 10,000 and 20,000 fans to each 30-minute performance in cities from San Francisco to New York...</p>
+        
+           <p><b>Beatles for Sale, Help! and Rubber Soul</b></p>
+           <p>According to Gould, Beatles for Sale, the Beatles' fourth studio LP, evidenced a growing conflict between the commercial pressures of their global success and their creative ambitions. They had intended the album, recorded between August and October 1964, to continue the format established by A Hard Day's Night which, unlike their first two LPs, contained only original songs. They had nearly exhausted their backlog of songs on the previous album, however, and given the challenges constant international touring posed to their songwriting efforts, Lennon admitted, "Material's becoming a hell of a problem". As a result, six covers from their extensive repertoire were chosen to complete the album. Released in early December, its eight original compositions stood out, demonstrating the growing maturity of the Lennon - McCartney songwriting partnership...</p>
+        
+           <p><b>Controversy, final tour and Revolver</b></p>
+           <p>Capitol Records, from December 1963 when it began issuing Beatles recordings for the US market, exercised complete control over format, compiling distinct US albums from the band's recordings and issuing songs of their choosing as singles. In June 1966, Yesterday and Today, one of Capitol's compilation albums, caused an uproar with its cover, which portrayed the grinning Beatles dressed in butcher's overalls, accompanied by raw meat and mutilated plastic baby dolls. It has been incorrectly suggested that this was meant as a satirical response to the way Capitol had "butchered" the US versions of their albums. Thousands of copies of the LP had a new cover pasted over the original; an unpeeled "first-state" copy fetched $10,500 at a December 2005 auction. In England, meanwhile, Harrison met sitar maestro Ravi Shankar, who agreed to train him on the instrument...</p>
+	  </div>
+      <div class="page" id="history_4">
+	     <div style="background-color:#3e8e41; color:white"><h2>1966-1970: Studio years</h2>
+           </div>
+	       <p><b>Sgt. Pepper's Lonely Hearts Club Band</b></p>
+	       <p>Freed from the burden of touring, the Beatles embraced an increasingly experimental approach as they recorded Sgt. Pepper's Lonely Hearts Club Band, beginning in late November 1966. According to engineer Geoff Emerick, the album's recording took over 700 hours. He recalled the band's insistence "that everything on Sgt. Pepper had to be different. We had microphones right down in the bells of brass instruments and headphones turned into microphones attached to violins. We used giant primitive oscillators to vary the speed of instruments and vocals and we had tapes chopped to pieces and stuck together upside down and the wrong way around." Parts of "A Day in the Life" featured a 40-piece orchestra. The sessions initially yielded the non-album double A-side single "Strawberry Fields Forever"/"Penny Lane" in February 1967; the Sgt. Pepper LP followed in June. The musical complexity of the records, created using relatively primitive four-track recording technology, astounded contemporary artists...</p>
+	    
+	       <p><b>Magical Mystery Tour, the White Album and Yellow Submarine</b></p>
+	       <p>Magical Mystery Tour, the soundtrack to a forthcoming Beatles television film, was released in the UK as a six-track double extended play disc (EP) in early December 1967. In the United States, the six songs were issued on an identically titled LP that also included five tracks from the band's recent singles. Unterberger says of the US Magical Mystery Tour, "the psychedelic sound is very much in the vein of Sgt. Pepper, and even spacier in parts (especially the sound collages of 'I Am the Walrus')" and he calls its five songs culled from the band's 1967 singles "huge, glorious, and innovative". In its first three weeks, the album set a record for the highest initial sales of any Capitol LP, and it is the only Capitol compilation later to be adopted in the band's official canon of studio albums. First aired on Boxing Day, the Magical Mystery Tour film, largely directed by McCartney, brought the group their first major negative UK press. It was dismissed as "blatant rubbish" by the Daily Express; the Daily Mail called it "a colossal conceit"; and The Guardian labelled the film "a kind of fantasy morality play about the grossness and warmth and stupidity of the audience". Gould describes it as "a great deal of raw footage showing a group of people getting on, getting off, and riding on a bus". Although the viewership figures were respectable, its slating in the press led US television networks to lose interest in broadcasting the film...</p>
+	    
+	       <p><b>Abbey Road, Let It Be and separation</b></p>
+	       <p>Although Let It Be was the Beatles' final album release, it was largely recorded before Abbey Road. The project's impetus came from an idea Martin attributes to McCartney, who suggested they "record an album of new material and rehearse it, then perform it before a live audience for the very first time - on record and on film". Originally intended for a one-hour television programme to be called Beatles at Work, much of the album's content came from extensive rehearsals filmed by director Michael Lindsay-Hogg at Twickenham Film Studios, beginning in January 1969. Martin has said that the project was "not at all a happy recording experience. It was a time when relations between the Beatles were at their lowest ebb." Lennon described the largely impromptu sessions as "hell ... the most miserable ... on Earth", and Harrison, "the low of all-time". Irritated by both McCartney and Lennon, Harrison walked out for five days. Upon returning, he threatened to leave the band unless they "abandon all talk of live performance" and instead focused on finishing a new album, initially titled Get Back, using songs recorded for the TV special. He also demanded they cease work at Twickenham and relocate to the newly finished Apple Studio. The other band members agreed, and the idea came about to salvage the footage shot for the TV production for use in a feature film...</p>
+	  </div>
+      <div class="page" id="history_5">
+	     <div style="background-color:#3e8e41; color:white"><h2>1970-present: After the break-up</h2>
+           </div>
+	       <p><b>1970s</b></p>
+	       <p>Lennon, McCartney, Harrison and Starr all released solo albums in 1970. Their solo records sometimes involved one or more of the others; Starr's Ringo (1973) was the only album to include compositions and performances by all four ex-Beatles, albeit on separate songs. With Starr's participation, Harrison staged the Concert for Bangladesh in New York City in August 1971. Other than an unreleased jam session in 1974, later bootlegged as A Toot and a Snore in '74, Lennon and McCartney never recorded together again...</p>
+	    
+	       <p><b>1980s</b></p>
+	       <p>After the murder of Lennon in December 1980, Harrison rewrote the lyrics to his song "All Those Years Ago" in Lennon's honour. With Starr on drums and McCartney and his wife, Linda, contributing backing vocals, the song was released as a single in May 1981. McCartney's own tribute, "Here Today", appeared on his Tug of War album in April 1982. In 1987, Harrison's Cloud Nine album included "When We Was Fab", a song about the Beatlemania era...</p>
+	    
+	       <p><b>1990s</b></p>
+	       <p>Live at the BBC, the first official release of unissued Beatles performances in seventeen years, appeared in 1994. That same year McCartney, Harrison and Starr collaborated on the Anthology project. Anthology was the culmination of work begun in 1970, when Apple Corps director Neil Aspinall, their former road manager and personal assistant, had started to gather material for a documentary with the working title The Long and Winding Road. Documenting their history in the band's own words, the Anthology project included the release of several unissued Beatles recordings. McCartney, Harrison and Starr also added new instrumental and vocal parts to two songs recorded as demos by Lennon in the late 1970s...</p>
+	    
+	       <p><b>2000s</b></p>
+	       <p>The Beatles' 1, a compilation album of the band's British and American number-one hits, was released on 13 November 2000. It became the fastest-selling album of all time, with 3.6 million sold in its first week and 13 million within a month. It topped albums charts in at least 28 countries, including the UK and US. As of April 2009, the compilation had sold 31 million copies globally, and is the best-selling album of that decade in the United States...</p>
+	    
+	       <p><b>2010s</b></p>
+	       <p>Owing to a long-running royalty disagreement, the Beatles were among the last major artists to sign deals with online music services. Residual disagreement emanating from Apple Corps' dispute with Apple, Inc., iTunes' owners, over the use of the name "Apple" was also partly responsible for the delay, although in 2008, McCartney stated that the main obstacle to making the Beatles' catalogue available online was that EMI "want something we're not prepared to give them". In 2010, the official canon of thirteen Beatles studio albums, Past Masters, and the Red and Blue greatest-hits albums were made available on iTunes...</p>
+		   <p align="center">For more information click <a href="https://en.wikipedia.org/wiki/The_Beatles" target="_blank" style="text-decoration: none;">here</a></p>
+	  </div>	 
+
+      <div class="page" id="albums_1">
+	     <div style="background-color:#3e8e41; color:white">
+		    <h2>1963 Please Please Me</h2>
+         </div>
+           <img src="https://upload.wikimedia.org/wikipedia/en/c/c0/PleasePleaseMe_audio_cover.jpg" style="float:left; padding:4px"/>
+	       <p> <b>Please Please Me</b> is the debut studio album by the English rock band the Beatles. Parlophone rush-released the album on 22 March 1963 in the United Kingdom to capitalise on the success of the band's singles "Please Please Me" (number 1 on most charts, although only number 2 on Record Retailer, later the UK Singles Chart) and "Love Me Do" (number 17). The album topped Record Retailer's LP chart for 30 weeks, an unprecedented achievement for a pop album at that time...</p>
+	  </div>
+      <div class="page" id="albums_2">
+	     <div style="background-color:#3e8e41; color:white">
+		    <h2>1963 With the Beatles</h2>
+         </div>
+           <img src="https://upload.wikimedia.org/wikipedia/en/0/0a/Withthebeatlescover.jpg" style="float:left; padding:4px"/>
+	       <p><b>With the Beatles</b> is the second studio album by the English rock band the Beatles. It was released on 22 November 1963, on Parlophone, and was recorded four months after the band's debut Please Please Me. The album features eight original compositions (seven by Lennon-McCartney and "Don't Bother Me", George Harrison's first recorded solo composition and his first released on a Beatles album) and six covers (mostly of Motown, rock and roll, and R&B hits). The cover photograph was taken by the fashion photographer Robert Freeman, and it has been mimicked by several music groups over the years...</p>
+	  </div>
+	  <div class="page" id="albums_3">
+	     <div style="background-color:#3e8e41; color:white">
+		   <h2>1964 A Hard Day's Night</h2>
+         </div>
+           <img src="https://upload.wikimedia.org/wikipedia/en/e/e6/HardDayUK.jpg" style="float:left; padding:4px"/>
+	       <p><b>A Hard Day's Night</b> is the third studio album by the English rock band the Beatles, released on 10 July 1964, with side one containing songs from the soundtrack to their film of the same name. The American version of the album was released two weeks earlier, on 26 June 1964 by United Artists Records, with a different track listing. In contrast to their first two albums, all 13 tracks on A Hard Day's Night were written by John Lennon and Paul McCartney showcasing the development of their songwriting talents. The album includes the title track, with its distinct opening chord, and the previously released "Can't Buy Me Love", both transatlantic number-one singles for the band...</p>
+	  </div>
+	  <div class="page" id="albums_4">
+	     <div style="background-color:#3e8e41; color:white">
+		   <h2>1964 Beatles for Sale</h2>
+         </div>
+           <img src="https://upload.wikimedia.org/wikipedia/en/4/40/Beatlesforsale.jpg" style="float:left; padding:4px"/>
+	       <p><b>Beatles for Sale</b> is the fourth studio album by the English rock band the Beatles. It was released on 4 December 1964 in the United Kingdom on EMI's Parlophone label. Eight of the album's fourteen tracks appeared on Capitol Records' concurrent release, Beatles '65, issued in North America only. The album marked a departure from the upbeat tone that had characterised the Beatles' previous work, partly due to the band's exhaustion after a series of tours that had established them as a worldwide phenomenon in 1964. The songs introduced darker musical moods and more introspective lyrics, with John Lennon adopting an autobiographical perspective in compositions such as "I'm a Loser" and "No Reply". The album also reflected the twin influences of country music and Bob Dylan, whom the Beatles met in New York in August 1964...</p>
+	  </div>
+	  <div class="page" id="albums_5">
+	     <div style="background-color:#3e8e41; color:white">
+		   <h2>1965 Help!</h2>
+         </div>
+           <img src="https://upload.wikimedia.org/wikipedia/en/e/e7/Help%21_%28The_Beatles_album_-_cover_art%29.jpg" style="float:left; padding:4px"/>
+	       <p><b>Help!</b> es el quinto álbum de estudio de la banda británica de rock, The Beatles, al mismo tiempo que banda sonora de su película de mismo título. Producido por George Martin para el sello discográfico subsidiario de EMI, Parlophone, el disco presentaba catorce canciones en su forma británica original, de las cuales siete aparecieron en la película Help!. Estas siete canciones ocuparon el primer lado del álbum de vinilo. El segundo lado contuvo otras siete canciones que incluía el tema más versionado jamás escrito, «Yesterday»...</p>
+	  </div>
+	  <div class="page" id="albums_6">
+	     <div style="background-color:#3e8e41; color:white">
+		   <h2>1965 Rubber Soul</h2>
+         </div>
+           <img src="https://upload.wikimedia.org/wikipedia/en/7/74/Rubber_Soul.jpg" style="float:left; padding:4px"/>
+	       <p><b>Rubber Soul</b> is the sixth studio album by the English rock band the Beatles. It was released on 3 December 1965 in the United Kingdom, on EMI's Parlophone label, accompanied by the non-album double A-side single "Day Tripper" / "We Can Work It Out". The original North American version of the album was altered by Capitol Records to include a different selection of tracks. Rubber Soul met with a highly favourable critical response and topped record charts in Britain and the United States for several weeks...</p>
+	  </div>
+	  <div class="page" id="albums_7">
+	     <div style="background-color:#3e8e41; color:white">
+		   <h2>1966 Revolver</h2>
+         </div>
+           <img src="https://upload.wikimedia.org/wikipedia/en/e/ec/Revolver_%28album_cover%29.jpg" style="float:left; padding:4px"/>
+	       <p><b>Revolver</b> is the seventh studio album by the English rock band the Beatles. Released on 5 August 1966, it was the Beatles' final recording project before their retirement as live performers and marked the group's most overt use of studio technology up to that time, building on the advances of their late 1965 release Rubber Soul. The album's diverse sounds include tape loops and backwards recordings on the psychedelic "Tomorrow Never Knows", a classical string octet on "Eleanor Rigby", and Indian-music backing on "Love You To". The album was reduced to eleven songs by Capitol Records in North America, where three of its tracks instead appeared on the June 1966 release Yesterday and Today...</p>
+	  </div>
+	  <div class="page" id="albums_8">
+	     <div style="background-color:#3e8e41; color:white">
+		   <h2>1967 Sgt. Pepper's Lonely Hearts Club Band</h2>
+         </div>
+           <img src="https://upload.wikimedia.org/wikipedia/en/5/50/Sgt._Pepper%27s_Lonely_Hearts_Club_Band.jpg" style="float:left; padding:4px"/>
+	       <p><b>Sgt. Pepper's Lonely Hearts Club Band</b> is the eighth studio album by English rock band the Beatles. Released on 26 May 1967 in the United Kingdom and 2 June 1967 in the United States, it spent 27 weeks at number one on the UK Albums Chart and 15 weeks at number one in the US. It was lauded by critics for its innovations in production, songwriting and graphic design, for bridging a cultural divide between popular music and high art, and for providing a musical representation of its generation and the contemporary counterculture. It won four Grammy Awards in 1968, including Album of the Year, the first rock LP to receive this honour...</p>
+	  </div>
+	  <div class="page" id="albums_9">
+	     <div style="background-color:#3e8e41; color:white">
+		   <h2>1967 Magical Mystery Tour</h2>
+         </div>
+           <img src="https://upload.wikimedia.org/wikipedia/en/e/e8/MagicalMysteryTourDoubleEPcover.jpg" style="float:left; padding:4px"/>
+	       <p><b>Magical Mystery Tour</b> is an album by the English rock band the Beatles that was released as a double EP in the United Kingdom and an LP in the United States. Produced by George Martin, it includes the soundtrack to the 1967 film of the same name. The EP was issued in the UK on 8 December 1967 on the Parlophone label, while the Capitol Records LP release in the US occurred on 27 November and featured eleven tracks with the addition of songs from the band's 1967 singles. The first release as an eleven-track LP in the UK did not occur until 1976...</p>
+	  </div>
+	  <div class="page" id="albums_10">
+	     <div style="background-color:#3e8e41; color:white">
+		   <h2>1968 The Beatles ("The White Album")</h2>
+         </div>
+           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/TheBeatles68LP.jpg/330px-TheBeatles68LP.jpg" style="float:left; padding:4px; height: 240px;"/>
+	       <p><b>The Beatles ("The White Album")</b> is the ninth studio album by the English rock band the Beatles, released on 22 November 1968. A double album, its plain white sleeve has no graphics or text other than the band's name embossed, which was intended as a direct contrast to the vivid cover artwork of the band's previous LP Sgt. Pepper's Lonely Hearts Club Band. Although no singles were issued from The Beatles in Britain and the United States, the songs "Hey Jude" and "Revolution" originated from the same recording sessions and were issued on a single in August 1968. The album's songs range in style from British blues and ska to tracks influenced by Chuck Berry and by Karlheinz Stockhausen...</p>
+	  </div>
+	  <div class="page" id="albums_11">
+	     <div style="background-color:#3e8e41; color:white">
+		   <h2>1969 Yellow Submarine</h2>
+         </div>
+           <img src="https://upload.wikimedia.org/wikipedia/en/a/ac/TheBeatles-YellowSubmarinealbumcover.jpg" style="float:left; padding:4px"/>
+	       <p><b>Yellow Submarine</b> is the tenth studio album by English rock band the Beatles, released on 13 January 1969 in the United States and on 17 January 1969 in the United Kingdom. It was issued as the soundtrack to the animated film of the same name, which premiered in London in July 1968. The album contains six songs by the Beatles, including four new songs and the previously released "Yellow Submarine" and "All You Need Is Love". The remainder of the album is a re-recording of the film's orchestral soundtrack by the band's producer, George Martin...</p>
+	  </div>
+	  <div class="page" id="albums_12">
+	     <div style="background-color:#3e8e41; color:white">
+		   <h2>1969 Abbey Road</h2>
+         </div>
+           <img src="https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg" style="float:left; padding:4px"/>
+	       <p><b>Abbey Road</b> is the eleventh studio album by English rock band the Beatles, released on 26 September 1969 by Apple Records. The recording sessions for the album were the last in which all four Beatles participated. Although Let It Be was the final album that the Beatles completed before the band's dissolution in April 1970, most of the album had been recorded before the Abbey Road sessions began. A two-sided hit single from the album, "Something" backed with "Come Together", released in October, topped the Billboard Hot 100 chart in the US...</p>	  
+	  </div>
+	  <div class="page" id="albums_13">
+	     <div style="background-color:#3e8e41; color:white">
+		   <h2>1970 Let It Be</h2>
+         </div>
+           <img src="https://upload.wikimedia.org/wikipedia/en/2/25/LetItBe.jpg" style="float:left; padding:4px"/>
+	       <p><b>Let It Be</b> is the twelfth and final studio album by the English rock band the Beatles. It was released on 8 May 1970, almost a month after the group's break-up. Like most of the band's previous releases, it was a number one album in many countries, including both the US and the UK, and was released in tandem with the motion picture of the same name...</p>	  
+	  </div>	  
+	  
+	  <div class="page" id="members_1">
+	     <div style="background-color:#3e8e41; color:white">
+		    <h2>Paul McCartney</h2>
+         </div>
+           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Paul_McCartney_in_October_2018.jpg/220px-Paul_McCartney_in_October_2018.jpg" style="float:left; padding:4px"/>
+	       <p><b>Paul McCartney</b> is an English singer-songwriter, multi-instrumentalist, and composer. He gained worldwide fame as the bass guitarist and singer for the rock band the Beatles, widely considered the most popular and influential group in the history of pop music. His songwriting partnership with John Lennon was the most successful of the post-war era. After the group disbanded in 1970, he pursued a solo career and formed the band Wings with his first wife, Linda, and Denny Laine...</p>
+		   <p>For more information click <a href="https://en.wikipedia.org/wiki/Paul_McCartney" target="_blank" style="text-decoration: none;">here</a></p>	
+		</div>
+	  <div class="page" id="albums_14_1">
+	     <div style="background-color:#3e8e41; color:white">
+		   <h2>Paul McCartney(Discography)</h2>
+         </div>	
+            <ul>
+			   <li>&#8226;McCartney (1970)</li>
+			   <li>&#8226;Ram (1971)</li>
+			   <li>&#8226;McCartney II (1980)</li>
+			   <li>&#8226;Tug of War (1982)</li>
+			   <li>&#8226;Pipes of Peace (1983)</li>
+			   <li>&#8226;Press to Play (1986)</li>
+			   <li>&#8226;Flowers in the Dirt (1989)</li>
+			   <li>&#8226;Off the Ground (1993)</li>
+			   <li>&#8226;Flaming Pie (1997)</li>
+			   <li>&#8226;Driving Rain (2001)</li>
+			   <li>&#8226;Chaos and Creation in the Backyard (2005)</li>
+			   <li>&#8226;Memory Almost Full (2007)</li>
+			   <li>&#8226;New (2013)</li>
+			   <li>&#8226;Egypt Station (2018)</li>
+			   <li>&#8226;McCartney III (2020)</li>
+			</ul>		 		   
+	  </div>
+	  
+	  <div class="page" id="members_2">
+	      <div style="background-color:#3e8e41; color:white">
+		     <h2>John Lennon</h2>
+          </div>
+           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/John_Lennon_1969_%28cropped%29.jpg/220px-John_Lennon_1969_%28cropped%29.jpg" style="float:left; padding:4px"/>
+	       <p><b>John Lennon</b> was an English singer, songwriter, and peace activist who co-founded the Beatles, the most commercially successful band in the history of popular music. He and fellow member Paul McCartney formed a much-celebrated songwriting partnership. Along with George Harrison and Ringo Starr, the group would ascend to worldwide fame during the 1960s...</p>
+		   <p>For more information click <a href="https://en.wikipedia.org/wiki/John_Lennon" target="_blank" style="text-decoration: none;">here</a></p>
+		</div>
+	  <div class="page" id="albums_14_2">
+	     <div style="background-color:#3e8e41; color:white">
+		   <h2>John Lennon(Discography)</h2>
+         </div>
+		    <ul>
+			   <li>&#8226;John Lennon/Plastic Ono Band (Apple, 1970)</li>
+			   <li>&#8226;Imagine (Apple, 1971)</li>
+			   <li>&#8226;Mind Games (Apple, 1973)</li>
+			   <li>&#8226;Walls and Bridges (Apple, 1974)</li>
+			   <li>&#8226;Rock 'n' Roll (Apple, 1975)</li>
+			</ul>			
+	  </div>
+	  
+	  <div class="page" id="members_3">
+	     <div style="background-color:#3e8e41; color:white">
+		    <h2>George Harrison</h2>
+         </div>
+           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/George_Harrison_1974.jpg/220px-George_Harrison_1974.jpg" style="float:left; padding:4px"/>
+	       <p><b>George Harrison</b> was an English guitarist, singer-songwriter, and producer who achieved international fame as the lead guitarist of the Beatles. Often referred to as "the quiet Beatle", Harrison embraced Indian culture and helped broaden the scope of popular music through his incorporation of Indian instrumentation and Hindu-aligned spirituality in the Beatles' work. Although the majority of the band's songs were written by John Lennon and Paul McCartney, most Beatles albums from 1965 onwards contained at least two Harrison compositions. His songs for the group included "Taxman", "Within You Without You", "While My Guitar Gently Weeps", "Here Comes the Sun" and "Something", the last of which became the Beatles' second-most covered song...</p>
+		   <p>For more information click <a href="https://en.wikipedia.org/wiki/George_Harrison" style="text-decoration: none;">here</a></p>
+		</div>
+	  <div class="page" id="albums_14_3">
+	     <div style="background-color:#3e8e41; color:white">
+		   <h2>George Harrison(Discography)</h2>
+         </div>
+		    <ul>
+			   <li>&#8226;Wonderwall Music (1968)</li>
+			   <li>&#8226;Electronic Sound (1969)</li>
+			   <li>&#8226;All Things Must Pass (1970)</li>
+			   <li>&#8226;Living in the Material World (1973)</li>
+			   <li>&#8226;Dark Horse (1974)</li>
+			   <li>&#8226;Extra Texture (Read All About It) (1975)</li>
+			   <li>&#8226;Thirty Three & 1/3 (1976)</li>
+			   <li>&#8226;George Harrison (1979)</li>
+			   <li>&#8226;Somewhere in England (1981)</li>
+			   <li>&#8226;Gone Troppo (1982)</li>
+			   <li>&#8226;Cloud Nine (1987)</li>
+			   <li>&#8226;Brainwashed (2002)</li>
+			</ul>			
+	  </div>
+	  
+	  <div class="page" id="members_4">
+	     <div style="background-color:#3e8e41; color:white">
+		    <h2>Ringo Starr</h2>
+         </div>
+           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ringo_Starr.png/220px-Ringo_Starr.png"  style="float:left; padding:4px"/>
+	       <p><b>Ringo Starr</b> is an English musician, singer, songwriter and actor who gained worldwide fame as the drummer for the Beatles. He occasionally sang lead vocals, usually for one song on an album, including "With a Little Help from My Friends", "Yellow Submarine", "Good Night", and their cover of "Act Naturally". He also wrote the Beatles' songs "Don't Pass Me By" and "Octopus's Garden", and is credited as a co-writer of others, including "What Goes On" and "Flying"...</p>
+		   <p>For more information click <a href="https://en.wikipedia.org/wiki/Ringo_Starr" target="_blank" style="text-decoration: none;">here</a></p>
+		</div>
+	  <div class="page" id="albums_14_4">
+	     <div style="background-color:#3e8e41; color:white">
+		   <h2>Ringo Starr(Discography)</h2>		   
+         </div>
+		    <ul>
+			   <li>&#8226; Sentimental Journey (1970)</li>
+			   <li>&#8226;Beaucoups of Blues (1970)</li>
+			   <li>&#8226;Ringo (1973)</li>
+			   <li>&#8226;Goodnight Vienna (1974)</li>
+			   <li>&#8226;Ringo's Rotogravure (1976)</li>
+			   <li>&#8226;Ringo the 4th (1977)</li>
+			   <li>&#8226;Bad Boy (1978)</li>
+			   <li>&#8226;Stop and Smell the Roses (1981)</li>
+			   <li>&#8226;Old Wave (1983)</li>
+			   <li>&#8226;Time Takes Time (1992)</li>
+			   <li>&#8226;Vertical Man (1998)</li>
+			   <li>&#8226;I Wanna Be Santa Claus (1999)</li>
+			   <li>&#8226;Ringo Rama (2003)</li>
+			   <li>&#8226;Choose Love (2005)</li>
+			   <li>&#8226;Liverpool 8 (2008)</li>
+			   <li>&#8226;Y Not (2010)</li>
+			   <li>&#8226;Ringo 2012 (2012)</li>
+			   <li>&#8226;Postcards from Paradise (2015)</li>
+			   <li>&#8226;Give More Love (2017)</li>
+			   <li>&#8226;What's My Name (2019)</li>
+			</ul>
+	  </div>
+	  
+	  <div class="page" id="media">
+	     <div style="background-color:#3e8e41; color:white">
+		    <h2>Media</h2>
+         </div>
+		 	<p align="center"><b>Videos</b></p>
+		 	<hr>
+		    </br>
+		    <p align="center">It looks like it was just shot yesterday</p>
+		    <p style="padding:10px" align="center">			   
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/C3VjYK4-mFQ?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</p>
+			<hr>
+			</br>
+			<p align="center">Helter Skelter - Giles Martin talks about the 2018 release of the White Album</p>
+			<p style="padding:10px" align="center">			   
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/vm8-7YeEjOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</p>
+			<hr>
+			</br>
+			<p align="center">Interview recorded for Facebook LIVE</br> with Paul, Ringo & Ron Howard from Abbey Road Studios</p>
+		    <p style="padding:10px" align="center">
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/psX3dR6pLyI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </p> 
+            <hr>	
+			</br>
+			<p align="center">Feature-Length Film Opens in Theatres August 27, 2021</p>
+		    <p style="padding:10px" align="center">			   
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/UocEGvQ10OE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>			   			   		   
+            </p>
+			<hr>	
+			</br>
+			<p align="center">The Inner Light</p>
+			<p style="padding:10px" align="center">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/sa3948JzWCc?start=113" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</p> 
+			<hr>
+			</br>
+			<p align="center">To see more videos click <a href="https://www.youtube.com/@TheBeatles" target="_blank">here</a></p>
+	  </div>
+	  
+	  <div class="page" id="contacts" style="height:560px">
+	     <div style="background-color:#3e8e41; color:white">
+		    <h2>Contacts</h2>
+         </div>	
+		</br>	               
+            <center style="text-indent:0px">
+               <h2><span style="color: #787575">Contact us</span></h2>
+                 <form>
+                   <input name="name" placeholder="*" type="text" required style="width:250px; height: 30px; margin: 5px"/><br/>
+                   <input name="email" placeholder="Email*" type="email" required style="width:250px; height: 30px; margin: 5px"/><br/>
+                   <textarea name="message" placeholder="Message*" required style="width:250px; height: 100px; margin: 5px"></textarea>
+				   <p style="color: #999; font-size: small;">* Required fields</p>
+                   <input type="submit" value="SEND" class="submit" style="width:150px; height: 50px; color: #555; font-weight: bold;"/>
+                 </form>
+	        </center><br/> 
+         <hr><br/>			
+         <p style="text-align:center; text-indent:0px">+1-111-111-1111</p>      
+		 <p style="text-align:center; text-indent:0px">exemple@exemple.com</p>
+		 </br>
+	  </div>
+	  
+	  <footer>
+	     <div id="footer_nav">
+		    <ul>
+			   <li><a href="#top">Home</a></li>
+			   <li><a href="#history_1">History</a></li>
+			   <li><a href="#">Albums</a></li>
+			   <li><a href="#members_1">Members</a></li>
+			   <li><a href="#media">Media</a></li>
+			   <li><a href="#contacts">Contacts</a></li>
+			</ul>
+		 </div>
+         <div id="footer_links"> 
+            <a href="http://www.facebook.com" target="_blanck">
+               <img alt="Facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png" style="top:20px"/>
+            </a>  			
+            <a href="http://www.twitter.com" target="_blanck">
+               <img alt="Twitter" src="https://www.sololearn.com/Uploads/icons/twitter.png" style="left:75px; top:-75px"/>
+            </a> 
+         </div>       
+         <div id="copyright">
+            All information and photography taken from wikipedia.com or theplace.ru (2023)
+         </div>
+   </footer>
+   </div>   
+   		<script type="text/javascript" src="main.js"></script> 
+   </body>
+   
+</html> 
