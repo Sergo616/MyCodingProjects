@@ -1,0 +1,207 @@
+﻿<!-- Created by Runtime Terror -->
+
+<!-- Created by Sergei Isáichenko -->
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <meta charset="UTF-8"/>
+      <title>Fireplace</title>
+      <link href="style.css" rel="stylesheet" type="text/css"/>
+      <script src="https://code.jquery.com/jquery-3.1.1.js"></script>      
+   </head>
+   
+   <body>
+      <audio id="beethoven" src="http://www.openculture.ru/wp-content/uploads/2011/11/04Beethoven_PianoSonata14InCSharpMinorOp.27_2_moonlight_-1.AdagioSostenuto.mp3"></audio>
+      <audio id="vivaldi" src="http://www.openculture.ru/wp-content/uploads/2011/11/10I_AllegroNonMolto.mp3"></audio>
+      <audio id="prokofiev" src="http://www.openculture.ru/wp-content/uploads/2013/03/prokofev_-_tanets_rytsarey_balet_romeo_i_dzhuletta_kartina_vtoraya.mp3"></audio>
+      <audio id="tchaikovsky" src="http://www.openculture.ru/wp-content/uploads/2011/11/swan-lake-ii.mp3"></audio>
+      <audio id="handel" src="http://www.openculture.ru/wp-content/uploads/2012/11/Gendel-Loneliness.mp3"></audio>    
+        
+<div class = "main">
+ <svg width = "300" height = "200" style = "z-index: 10">
+ <polygon points = "0 0 , 25 0, 25 200, 0 200" 
+ style = "fill: #531F03"/>
+ <polygon points = "275 0 , 300 0, 300 200, 275 200" 
+ style = "fill: #531F03"/>
+ <polygon points = "0 0, 300 0, 300 25, 0 25"
+ style = "fill: #6E3A0C"/>
+ <polygon points = "0 0, 300 0, 300 8, 0 8"
+ style = "fill: #3A0600"/>
+ <polygon points = "0 190, 300 190, 300 200, 0 200"
+ style = "fill: #3A0600"/>
+ <polygon points = "50 160, 250 160, 250 190, 50 190"
+ style = "fill: black"/>
+ <polygon points = "50 160, 250 160, 250 175, 50 175"
+ style = "fill: #41240D"/>
+ <polygon points = "50 160, 250 160, 250 165, 50 165"
+ style = "fill: #6C3B15"/>
+ </svg>
+ 
+ <svg class = "fire1" width = "60" height = "120">
+  <path class = "one" d = "M0 70 Q30 170 60 80 Q45 110 35 80 Q35 70 45 60 Q60 40 30 0 L30 15 Q0 45 25 85 Q22 110 0 70Z"
+  style = "fill: none"/>
+ </svg> 
+  <svg class = "fire2" width = "60" height = "120">
+  <path class = "two" d = "M0 70 Q30 170 60 80 Q45 110 35 80 Q35 70 45 60 Q60 40 30 0 L30 15 Q0 45 25 85 Q22 110 0 70Z"
+  style = "fill: none"/>
+ </svg>
+ <svg class = "fire3" width = "60" height = "120">
+  <path class = "three" d = "M0 70 Q30 170 60 80 Q45 110 35 80 Q35 70 45 60 Q60 40 30 0 L30 15 Q0 45 25 85 Q22 110 0 70Z"
+  style = "fill: none"/>
+ </svg>
+ <svg class = "fire4" width = "60" height = "120">
+  <path class = "four" d = "M0 70 Q30 170 60 80 Q45 110 35 80 Q35 70 45 60 Q60 40 30 0 L30 15 Q0 45 25 85 Q22 110 0 70Z"
+  style = "fill: #EDBE46"/>
+ </svg>
+  <svg class = "fire5" width = "60" height = "120">
+  <path class = "five" d = "M0 70 Q30 170 60 80 Q45 110 35 80 Q35 70 45 60 Q60 40 30 0 L30 15 Q0 45 25 85 Q22 110 0 70Z"
+  style = "fill: none"/>
+ </svg>
+ <svg class = "fire6" width = "60" height = "120">
+  <path class = "six" d = "M0 70 Q30 170 60 80 Q45 110 35 80 Q35 70 45 60 Q60 40 30 0 L30 15 Q0 45 25 85 Q22 110 0 70Z"
+  style = "fill: #EDBE46"/>
+ </svg>
+ <svg class = "fire7" width = "60" height = "120">
+  <path class = "seven" d = "M0 70 Q30 170 60 80 Q45 110 35 80 Q35 70 45 60 Q60 40 30 0 L30 15 Q0 45 25 85 Q22 110 0 70Z"
+  style = "fill: #EDBE46"/>
+ </svg>
+ <svg class = "fireA" width = "40" height = "80">
+  <path class = "fireOne" d = "M25 0 Q-15 55 17 80 L23 80 Q50 68 30 48 Q12 30 25 0Z"
+  style = "fill: #D25638"/>
+ </svg>
+ <svg class = "fireB" width = "40" height = "80">
+  <path class = "fireTwo" d = "M25 0 Q-15 55 17 80 L23 80 Q50 68 30 48 Q12 30 25 0Z"
+  style = "fill: #D25638"/>
+ </svg>
+ <svg class = "fireC" width = "40" height = "80">
+  <path class = "fireThree" d = "M25 0 Q-15 55 17 80 L23 80 Q50 68 30 48 Q12 30 25 0Z"
+  style = "fill: #D25638"/>
+ </svg>
+ <svg class = "fireD" width = "40" height = "80">
+  <path class = "fireFour" d = "M25 0 Q-15 55 17 80 L23 80 Q50 68 30 48 Q12 30 25 0Z"
+  style = "fill: #D25638"/>
+ </svg>
+  <svg class = "fireE" width = "40" height = "80">
+  <path class = "fireFive" d = "M25 0 Q-15 55 17 80 L23 80 Q50 68 30 48 Q12 30 25 0Z"
+  style = "fill: #D25638"/>
+ </svg>
+ <svg class = "cage1" width = "80" height = "100">
+  <path d="M40 17 Q75 25 78 100" 
+  stroke= "#000915" stroke-width="4"  fill = "none"/>      
+ </svg>
+ <svg class = "cage2" width = "80" height = "100">
+  <path d="M2 100 Q5 25 40 17 Q75 25 78 100" 
+  stroke= "#000915" stroke-width="4"  fill = "none"/>      
+ </svg>
+ <svg class = "cage3" width = "80" height = "100">
+  <path d="M2 100 Q5 25 40 17 Q75 25 78 100" 
+  stroke= "#000915" stroke-width="4"  fill = "none"/>      
+ </svg>
+ <svg class = "cage4" width = "80" height = "100">
+  <path d="M2 100 Q5 25 40 17 Q75 25 78 100" 
+  stroke= "#000915" stroke-width="4"  fill = "none"/>      
+ </svg>
+ <svg class = "cage5" width = "80" height = "100">
+  <path d="M2 100 Q5 25 40 17 Q75 25 78 100" 
+  stroke= "#000915" stroke-width="4"  fill = "none"/>      
+ </svg>
+ <svg class = "cage6" width = "80" height = "100">
+  <path d="M2 100 Q5 25 40 17 Q75 25 78 100" 
+  stroke= "#000915" stroke-width="4"  fill = "none"/>      
+ </svg>
+ <svg class = "cage7" width = "50" height = "100">
+  <path d="M2 100 Q5 25 40 17 Q75 25 78 100" 
+  stroke= "#000915" stroke-width="4"  fill = "none"/>      
+ </svg> 
+ <svg class = "cage8" width = "10" height = "100">
+  <path d="M2 100 Q5 25 40 17 Q75 25 78 100" 
+  stroke= "#000915" stroke-width="4"  fill = "none"/>      
+ </svg> 
+</div>
+
+<div class = "bigPanel">
+ <div class = "panel">
+  <table>
+    <tr>    
+      <td> 
+      <table>
+         <tr>
+            <td><div style = "width: 28px; text-align: center;">#1</div></td>
+         </tr>
+         <tr>
+            <td><div class = "buttonsUp" onClick="singlePlay('beethoven')">On</div></td>
+         </tr>
+         <tr>
+            <td><div class = "buttonsDown" onClick="document.getElementById('beethoven').pause()">Off</div></td>
+         </tr>
+      </table>
+      </td>      
+      <td>
+      <table>    
+         <tr>
+            <td><div style = "width: 28px; text-align: center;">#2</div></td>
+         </tr>
+         <tr>
+            <td><div class = "buttonsUp" onClick="singlePlay('vivaldi')">On</div></td>
+         </tr>
+         <tr>
+            <td><div class = "buttonsDown" onClick="document.getElementById('vivaldi').pause()">Off</div></td>
+         </tr>
+      </table>
+      </td>
+      <td>
+      <table>    
+         <tr>
+            <td><div style = "width: 28px; text-align: center;">#3</div></td>
+         </tr>
+         <tr>
+            <td><div class = "buttonsUp" onClick="singlePlay('prokofiev')">On</div></td>
+         </tr>
+         <tr>
+            <td><div class = "buttonsDown" onClick="document.getElementById('prokofiev').pause()">Off</div></td>
+         </tr>
+      </table>
+      </td>
+      <td>
+      <table>    
+         <tr>
+            <td><div style = "width: 28px; text-align: center;">#4</div></td>
+         </tr>
+         <tr>
+            <td><div class = "buttonsUp" onClick="singlePlay('tchaikovsky')">On</div></td>
+         </tr>
+         <tr>
+            <td><div class = "buttonsDown" onClick="document.getElementById('tchaikovsky').pause()">Off</div></td>
+         </tr>
+      </table>
+      </td>
+      <td>
+      <table>    
+         <tr>
+            <td><div style = "width: 28px; text-align: center;">#5</div></td>
+         </tr>
+         <tr>
+            <td><div class = "buttonsUp" onClick="singlePlay('handel')">On</div></td>
+         </tr>
+         <tr>
+            <td><div class = "buttonsDown" onClick="document.getElementById('handel').pause()">Off</div></td>
+         </tr>
+      </table>
+      </td>
+   </tr>
+  </table>
+ </div>
+ <div class = "list">
+  <div class = "listNumber">
+  <p>#1 Beethoven</br>#2 Vivaldi</br>#3 Prokofiev</br>#4 Tchaikovsky</br>#5 Handel</p>
+  </div>
+ </div>
+ <div class = "light"></div>
+</div>
+
+      <script type="text/javascript" src="main.js"></script>
+   </body>
+   
+</html> 
