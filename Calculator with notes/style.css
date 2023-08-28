@@ -1,0 +1,84 @@
+﻿.bookmark {
+	position: absolute;
+	height: 18px;
+	width: 84px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	margin:-139px 0 0 142px;
+	cursor: pointer;
+}
+.bookmark:hover {
+	background: #C0C0C0;
+	color: black;
+	font-weight: bold;
+} 
+
+.title {
+	position: absolute;
+	height: 40px;
+	width: 206px;
+	background-color: #F5DEB3;
+	color: #201B3E;
+	margin-top: 3px;
+	margin-left: 3px;
+	border-radius: 10px 10px 0 0;
+	font-size: 20px;
+}
+
+.area {
+	height: 190px;
+	width: 200px;
+	margin-top: 43px;
+	margin-left: 3px;
+	border-radius: 0 0 10px 10px;
+	background-color: #F5DEB3;
+}
+
+.calc {
+    position: absolute;
+	background-color: black;
+	height: 242px;
+	width: 451px;
+	border-radius: 14px 0 14px 14px;
+   	top:50%;
+    left:50%;
+	margin:-121px 0 0 -225px;
+}
+
+td {
+	background-color: black;
+	height: 30px;
+	width: 40px;
+	text-align: center;
+	font-size: 25px; 
+	border-radius: 6px;
+	color: white;
+	box-shadow: 3px 3px grey;
+}
+
+.first {
+	box-shadow: none;	
+}
+
+.textTop {	
+   height: 28px;  
+   font-weight: bold; 
+}
+
+table {
+	background-color: #C0C0C0;         
+    border-spacing: 6px;
+	border-radius: 10px;
+	margin-left: 250px;
+	margin-top: -242px;
+}
+
+.spring {
+	position: absolute;
+	z-index: 10;
+	margin-left: -10px;
+	margin-top: 12px;
+}

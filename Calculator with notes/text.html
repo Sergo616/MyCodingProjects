@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+
+   <head>
+      <meta charset="UTF-8"/>
+      <title>Calculator with notes</title>
+	  <link href="style.css" rel="stylesheet" type="text/css"/>
+      <script src="https://code.jquery.com/jquery-3.1.1.js"></script>	  
+   </head>
+   
+   <body> 
+     <div class = "bookmark">Open/Close</div>  
+     <div class = "calc">	 
+	 <div class = "title"><p align = "center"><i>For notes:</i></p></div>
+	 <textarea class = "area"></textarea>
+	 
+	      <svg class = "spring" height = "220px" width = "30px">
+	 <path d="M30 0 0 5" stroke= "#414141" stroke-width="3"/>  
+	 <path d="M30 10 0 15" stroke= "#414141" stroke-width="3"/>
+	 <path d="M30 20 0 25" stroke= "#414141" stroke-width="3"/>
+	 <path d="M30 30 0 35" stroke= "#414141" stroke-width="3"/>
+	 <path d="M30 40 0 45" stroke= "#414141" stroke-width="3"/>
+	 <path d="M30 50 0 55" stroke= "#414141" stroke-width="3"/>
+	 <path d="M30 60 0 65" stroke= "#414141" stroke-width="3"/>
+	 <path d="M30 70 0 75" stroke= "#414141" stroke-width="3"/>
+	 <path d="M30 80 0 85" stroke= "#414141" stroke-width="3"/>
+	 <path d="M30 90 0 95" stroke= "#414141" stroke-width="3"/>
+	 <path d="M30 100 0 105" stroke= "#414141" stroke-width="3"/>
+	 <path d="M30 110 0 115" stroke= "#414141" stroke-width="3"/>
+	 <path d="M30 120 0 125" stroke= "#414141" stroke-width="3"/>
+	 <path d="M30 130 0 135" stroke= "#414141" stroke-width="3"/>
+	 <path d="M30 140 0 145" stroke= "#414141" stroke-width="3"/>
+	 <path d="M30 150 0 155" stroke= "#414141" stroke-width="3"/>
+	 <path d="M30 160 0 165" stroke= "#414141" stroke-width="3"/>
+	 <path d="M30 170 0 175" stroke= "#414141" stroke-width="3"/>
+	 <path d="M30 180 0 185" stroke= "#414141" stroke-width="3"/>
+	 <path d="M30 190 0 195" stroke= "#414141" stroke-width="3"/>
+	 <path d="M30 200 0 205" stroke= "#414141" stroke-width="3"/>
+	 <path d="M30 210 0 215" stroke= "#414141" stroke-width="3"/>
+	 </svg>
+	 
+      <table>
+	     <tr>
+		    <td class = "first" colspan = "4" ><div class = "item input"><form name = "form"><input type = "text" name = "textview"  class = "textTop" readonly></form></div></td>
+		 </tr>
+	     <tr >
+		    <td colspan = "2"><div class = "item clean" style = "color: #FFCACA;" onclick = "clean()">C</div></td>			
+			<td><div class = "item back" onclick = "back()">&larr;</div></td>
+			<td><div class = "item" onclick = "insert('/')">/</div></td>
+		 </tr>
+		 <tr>
+		    <td><div class = "item" onclick = "insert('7')">7</div></td>
+			<td><div class = "item" onclick = "insert('8')">8</div></td>
+			<td><div class = "item" onclick = "insert('9')">9</div></td>
+			<td><div class = "item" onclick = "insert('*')">x</div></td>
+		 </tr>
+		 <tr>
+		    <td><div class = "item" onclick = "insert('4')">4</div></td>
+			<td><div class = "item" onclick = "insert('5')">5</div></td>
+			<td><div class = "item" onclick = "insert('6')">6</div></td>
+			<td><div class = "item" onclick = "insert('-')">-</div></td>
+		 </tr>
+		 <tr>
+		    <td><div class = "item" onclick = "insert('1')">1</div></td>
+			<td><div class = "item" onclick = "insert('2')">2</div></td>
+			<td><div class = "item" onclick = "insert('3')">3</div></td>
+			<td><div class = "item" onclick = "insert('+')">+</div></td>
+		 </tr>
+		 <tr>
+		    <td><div class = "item zero" onclick = "insert('0')">0</div></td>
+			<td><div class = "item" onclick = "insert('.')">.</div></td>
+			<td colspan = "2"><div class = "item equal" style = "color: #83BC83;" onclick = "equal()">=</div></td>
+		 </tr>
+	  </table>
+     </div>
+	  
+      <script type="text/javascript" src="main.js"></script>
+   </body>
+   
+</html> 
